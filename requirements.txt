@@ -1,0 +1,11 @@
+aiogram==3.30.0
+alembic==1.19.1
+pydantic==2.13.4
+pydantic-settings==2.15.0
+redis==8.1.0
+SQLAlchemy==2.0.51
+taskiq==0.12.4
+taskiq-redis==1.2.3
+orjson==3.11.9
+asyncpg==0.31.0
+dishka==1.10.1
