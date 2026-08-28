@@ -25,6 +25,8 @@ git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git
 
 cd telegram-bot-template
 cp .env.example .env
+
+pip install -r requirements.txt
 ```
 
 Если хотите работать в папке своего проекта, а не в папке шаблона
@@ -37,6 +39,8 @@ cp .env.example .env
 
 mv * ..
 cd
+
+pip install -r requirements.txt
 ```
 
 Не забудьте переместить `.env` из папки шаблона и удалить его
@@ -50,8 +54,6 @@ docker compose up -d --build
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-
-pip install -r requirements.txt
 
 alembic upgrade head
 
