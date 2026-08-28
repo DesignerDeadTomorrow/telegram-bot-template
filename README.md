@@ -18,43 +18,15 @@
 
 ### 1. Подготовка
 
-
-**Для Windows (PowerShell)**
-```bash
-git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
-
-Copy-Item .env.example .env
-
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-
-python.exe -m pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-**Для Windows (Bash)**
+Скопируйте шаблон и измените `.env` на свои значения
 ```bash
 git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
 
 cp .env.example .env
-
-python -m venv .venv
-source .venv/Scripts/activate
-
-python.exe -m pip install --upgrade pip
-pip install -r requirements.txt
 ```
 
-**Для Linux/MacOS**
+Создайте `venv` окружение и скачайте зависимости
 ```bash
-git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
-
-cp .env.example .env
-
-python -m venv .venv
-source .venv/bin/activate
-
-python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
