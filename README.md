@@ -172,6 +172,7 @@ alembic downgrade -1
 │ │ └── callbacks.py # Меню навигации
 │
 .env.example # Шаблон .env
+.gitignore # Что игнорировать Git
 README.md # Документация
 alebmic.ini # Конфиг Alembic
 docker-compose.yml # Сборщик контейнеров
