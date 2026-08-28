@@ -21,29 +21,13 @@
 
 Скопируйте репозиторий и поменяйте `.env`
 ```bash
-git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git
+git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
 
 cd telegram-bot-template
 cp .env.example .env
 
 pip install -r requirements.txt
 ```
-
-Если хотите работать в папке своего проекта, а не в папке шаблона
-
-```bash
-git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git
-
-cd telegram-bot-template
-cp .env.example .env
-
-mv * ..
-cd
-
-pip install -r requirements.txt
-```
-
-Не забудьте переместить `.env` из папки шаблона и удалить его
 
 ### 2. Запуск через Docker
 ```bash
