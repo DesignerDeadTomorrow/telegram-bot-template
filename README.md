@@ -19,19 +19,20 @@
 ### 1. Подготовка
 
 
-**Для Windows**
+**Для Windows (PowerShell)**
 ```bash
 git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
 
-cp .env.example .env
+Copy-Item .env.example .env
 
 python -m venv .venv
-source .venv/Scripts/activate
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+.\.venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
 ```
 
-**Для Linux/MacOS**
+**Для Linux/MacOS (Bash)**
 ```bash
 git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
 
