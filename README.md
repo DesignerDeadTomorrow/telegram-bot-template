@@ -27,6 +27,18 @@ cd telegram-bot-template
 cp .env.example .env
 ```
 
+Если хотите работать в папке своего проекта, а не в папке шаблона
+
+```bash
+git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git
+
+cd telegram-bot-template
+cp .env.example .env
+
+mv * ..
+cd
+```
+
 ### 2. Запуск через Docker
 ```bash
 docker compose up -d --build
