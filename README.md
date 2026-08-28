@@ -29,6 +29,7 @@ python -m venv .venv
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 .\.venv\Scripts\Activate.ps1
 
+python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
@@ -41,6 +42,7 @@ cp .env.example .env
 python -m venv .venv
 source .venv/Scripts/activate
 
+python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
@@ -53,6 +55,7 @@ cp .env.example .env
 python -m venv .venv
 source .venv/bin/activate
 
+python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
