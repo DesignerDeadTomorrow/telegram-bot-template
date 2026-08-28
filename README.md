@@ -18,8 +18,10 @@
 
 ### 1. Подготовка
 
-Скопируйте и поменяйте `.env`
+
+Скопируйте репозиторий и поменяйте `.env`
 ```bash
+git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git
 cp .env.example .env
 ```
 
