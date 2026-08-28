@@ -19,15 +19,27 @@
 ### 1. Подготовка
 
 
-Скопируйте репозиторий и поменяйте `.env`
+Для Windows
 ```bash
 git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
 
 cp .env.example .env
+
+python -m venv .venv
+.venv\Scripts\activate.bat
+
+pip install -r requirements.txt
 ```
 
-Создайте `venv` среду и скачайте зависимости
+Для Linux/MacOS
 ```bash
+git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
+
+cp .env.example .env
+
+python -m venv .venv
+source .venv/bin/activate
+
 pip install -r requirements.txt
 ```
 
@@ -38,9 +50,6 @@ docker compose up -d --build
 
 ### 3. Локальный запуск
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-
 alembic upgrade head
 
 python -m src.app.bot
