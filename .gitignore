@@ -7,3 +7,4 @@ alembic/versions/*.pyc
 .md
 logs/
 *.db
+.git
