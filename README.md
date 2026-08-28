@@ -26,7 +26,6 @@ git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
 Copy-Item .env.example .env
 
 python -m venv .venv
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 .\.venv\Scripts\Activate.ps1
 
 python -m pip install --upgrade pip
