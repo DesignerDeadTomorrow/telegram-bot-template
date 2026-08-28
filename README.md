@@ -23,9 +23,11 @@
 ```bash
 git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
 
-cd telegram-bot-template
 cp .env.example .env
+```
 
+Создайте `venv` среду и скачайте зависимости
+```bash
 pip install -r requirements.txt
 ```
 
