@@ -32,7 +32,19 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 pip install -r requirements.txt
 ```
 
-**Для Linux/MacOS (Bash)**
+**Для Windows (Bash)**
+```bash
+git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
+
+cp .env.example .env
+
+python -m venv .venv
+source .venv/Scripts/activate
+
+pip install -r requirements.txt
+```
+
+**Для Linux/MacOS**
 ```bash
 git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
 
