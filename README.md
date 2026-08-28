@@ -19,7 +19,7 @@
 ### 1. Подготовка
 
 
-Для Windows
+**Для Windows**
 ```bash
 git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
 
@@ -31,7 +31,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Для Linux/MacOS
+**Для Linux/MacOS**
 ```bash
 git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
 
