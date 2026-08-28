@@ -141,6 +141,7 @@ alembic downgrade -1
 │ │ ├── buttons.py # Отдельные кнопки назад
 │ │ └── callbacks.py # Меню навигации
 │
+.env.example # Шаблон .env
 README.md # Документация
 alebmic.ini # Конфиг Alembic
 docker-compose.yml # Сборщик контейнеров
