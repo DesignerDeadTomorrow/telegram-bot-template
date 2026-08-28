@@ -1,10 +1,9 @@
 .venv
 venv
-.env
-logs/
-__pycache__/
-.pytest_cache/
-*.db
+__pycache__
 alembic/versions/*.pyc
-.idea/
-.vscode/
+*.pyc
+.env
+.md
+logs/
+*.db
