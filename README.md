@@ -26,7 +26,7 @@ git clone https://github.com/DesignerDeadTomorrow/telegram-bot-template.git .
 cp .env.example .env
 
 python -m venv .venv
-.venv\Scripts\activate.bat
+source .venv/Scripts/activate
 
 pip install -r requirements.txt
 ```
