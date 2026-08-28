@@ -28,7 +28,6 @@ Copy-Item .env.example .env
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
-python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
@@ -41,7 +40,6 @@ cp .env.example .env
 python -m venv .venv
 source .venv/Scripts/activate
 
-python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
@@ -54,7 +52,6 @@ cp .env.example .env
 python -m venv .venv
 source .venv/bin/activate
 
-python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
