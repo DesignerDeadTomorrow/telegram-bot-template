@@ -115,7 +115,8 @@ alembic downgrade -1
 │ │ │ └── throttling.py # Анти-спам
 │ │ ├── init.py
 │ │ ├── constants.py # Константы
-│ │ └── exceptions.py # Кастомные ошибки
+│ │ ├── exceptions.py # Кастомные ошибки
+│ │ └── schemas.py # Базовые модели pydantic
 │
 │ └── entities/ # Сущности
 │   └── init.py
