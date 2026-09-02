@@ -7,8 +7,7 @@ from aiogram.types import TelegramObject
 class ThrottlingProtocol(Protocol):
     """Протокол-шаблон для анти-спам мидлвейра."""
 
-    async def incr_with_ttl(self, prefix: str, key: str | int, ex: int) -> int:
-        pass
+    async def incr_with_ttl(self, prefix: str, key: str | int, ex: int) -> int: ...
 
 
 class ThrottlingMiddleware(BaseMiddleware):
