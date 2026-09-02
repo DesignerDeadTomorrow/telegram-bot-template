@@ -4,7 +4,9 @@ from aiogram import BaseMiddleware
 from aiogram.types import TelegramObject
 
 
-class RedisClientProtocol(Protocol):
+class ThrottlingProtocol(Protocol):
+    """Протокол-шаблон для анти-спам мидлвейра."""
+
     async def incr_with_ttl(self, prefix: str, key: str | int, ex: int) -> int:
         pass
 
@@ -14,7 +16,7 @@ class ThrottlingMiddleware(BaseMiddleware):
 
     def __init__(
         self,
-        redis: RedisClientProtocol,
+        redis: ThrottlingProtocol,
         limit: int = 1,
         ex: int = 1,
         prefix: str = "spam",
